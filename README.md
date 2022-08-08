@@ -6,7 +6,7 @@
 # Left Right Center Dice Game
 
 | !(https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) | !(https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) |
-| [Link to C++ code](https://github.com/kerrsr1/CPlusPlusLRCDiceGame) | [Link to Python code](insertlinkhere) |
+| [Link to C++ code](https://github.com/kerrsr1/CPlusPlusLRCDiceGame) | [Link to Python code](https://github.com/kerrsr1/PythonLeftRightCenterDiceGame) |
 
 This simple dice game, called Left Right Center, was written in C++ as the final project for IT 312. I chose this as one of my artifacts because it demonstrates my skills related to software engineering and design. It takes an object-oriented programming approach by using a Dice and Player class and making use of encapsulation. I enhanced it by rewriting it in Python while also making some improvements on the modularization of it. Specifically, the main() method was simplified to include a game loop (game_loop()), magic numbers were removed by including global variables, and a class called CenterPot was created to hold the chips passed into the center pot. More notably, Python stringdoc comments were added to explain the code and easily allow other programmers to work on the code.
 
