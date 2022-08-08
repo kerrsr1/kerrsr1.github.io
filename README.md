@@ -5,7 +5,7 @@
 # Artifact One
 ## Left Right Center Dice Game
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7a2_fYmdmN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6jw0K0i3e68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 | ![C++ Badge](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white) | ![Python badge](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) |
 | [Link to C++ code](https://github.com/kerrsr1/CPlusPlusLRCDiceGame) | [Link to Python code](https://github.com/kerrsr1/PythonLeftRightCenterDiceGame) |
