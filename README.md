@@ -28,6 +28,9 @@ My coursework at SNHU prepared me for designing and evaluating computing solutio
 
 The Contact Service program could be improved upon by doing more to validate user input. One solution that follows the security mindset of the principle of least privilege would be to white list valid input and throw an exception for everything else rather than checking for invalid input and throwing exceptions when those are encountered.
 
+## Artifact 3 - Data Visualization Program
+
+![Example of chart showing unfiltered data](/kerrsr1/DashboardUnfilteredData.png)
 
 ## Welcome to GitHub Pages
 
