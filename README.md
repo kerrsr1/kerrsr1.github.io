@@ -17,7 +17,10 @@ A computer scientist is able to use well-founded and innovative tools for the pu
 # Artifact #2
 ## Contact Service
 
-| ![Java Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) | [Link to Java Code](https://github.com/kerrsr1/JavaContactService) |
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jC50iVC-uW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+| ![Java Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) | 
+| [Link to Java Code](https://github.com/kerrsr1/JavaContactService) |
 
 This artifact is a Contact Service program written in Java and was the final project for CS 320 – Software Testing and Automation. The program takes a Contact, Appointment, or Task service and can either add, modify, or delete each service. The purpose of this program was to practice writing Junit tests. I chose this as one of my artifacts because it demonstrates my skills related to algorithms and data structures since the Junit tests are used to ensure the algorithms I wrote give the correct output while any errors are caught by exception handlers. The Contact, Appointment, and Task objects all need to be stored in a data structure, and I enhanced this program by switching from an arraylist data structure to a hashmap. By doing this, I could use the unique ID for each Contact, Appointment, and Task as the key for the hashmap and the corresponding class object as the value. I also enhanced it by removing the now-deprecated Java Date class and using LocalDate class.
 
