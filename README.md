@@ -1,9 +1,10 @@
+<div align="center>
+
 ## Code Review Video Walk-Through
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7a2_fYmdmN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Artifact One
-## Left Right Center Dice Game
+## Artifact One - Left Right Center Dice Game
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jw0K0i3e68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -14,8 +15,7 @@ This simple dice game, called Left Right Center, was written in C++ as the final
 
 A computer scientist is able to use well-founded and innovative tools for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals, and my ability to write two programs in separate languages that accomplish the same task demonstrate my ability to be flexible in choosing tools to accomplish goals. It also shows a fundamental understanding of overall programming concepts on my part. Having this understanding provides value because it reduces the amount of time necessary to begin using a new language or tool. New tools and techniques come along often, and I value the importance of being familiar with these advancements and open to implementing them. Additonally, I included stringdoc comments in the Python program to further provide industry value because it makes it very clear to other programmers how it works. This not only makes the code more maintainable (even to myself in the future) but demonstrates my ability to work with a team mindset.
 
-# Artifact #2
-## Contact Service
+## Artifact 2 - Contact Service
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jC50iVC-uW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -30,42 +30,43 @@ The Contact Service program could be improved upon by doing more to validate use
 
 ## Artifact 3 - Data Visualization Program
 
-![Example of chart showing unfiltered data](/kerrsr1/DashboardUnfilteredData.png)
+This artifact is a data visualization dashboard for animal shelter data. This was the final project for CS-340 Client/Server Development, and it demonstrates my skills in databases. MongoDB Atlas is the database and Python is the interface via the PyMongo driver. It is a full-stack application with the user-interface written in HTML and also utilizing Dash and DashLeaflet. I enhanced this artifact by creating indexes specifically for the needs of the customer. The database contains information on different kinds of animals admitted to an animal shelter in Texas and the customer is interested in certain kinds of dogs that would qualify for their rescue work. Indexing the data boosts performance because the entire collection no longer has to be iterated over each time there is a query.
 
-## Welcome to GitHub Pages
+One of the outcomes of the computer science program is the ability to use well-founded and innovated techniques and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry specific goal. The indexing enhancement to this application is a well-founded technique in increasing the speed of querying data and thus delivers value to the customer. Another outcome of the computer science program is to deliver professional-quality written and visual communications that are appropriately adapted to specific audiences and contexts, and this is done by delivering a UI for the animal shelter data using the Dash framework and HTML so the customer can easily see the information translated into charts, graphs, and a map. Visualizing the data in such a way makes it meaningful to the customer.
 
-You can use the [editor on GitHub](https://github.com/kerrsr1/kerrsr1.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<details><summary>CLICK TO EXPAND FOR EXAMPLES OF QUERYING WITH AND WITHOUT INDEXING</summary>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<br/>
+Querying the database with an example of the type of information the customer was looking for before creating indexes resulted in 10,000 documents being searched through totaling 14ms, while the same query took only 7ms after creating indexes.
+<br/>
 
-### Markdown
+| Querying the database without indexing took 14ms | Querying the database with indexing took only 7ms |
+|:--:|:--:|
+| <img src="/ExecutionTimeQueryWithoutIndex.jpg" width="500"> | <img src="/ExecutionTimeQuertyDateWithIndex.jpg" width="500"> |
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</details>
 
-```markdown
-Syntax highlighted code block
+Additionally, this artifact was enhanced by creating Python docstrings for all Python classes and methods. I also went through the AnimalShelterVisualization.py file and changed some variable names so their contents were more obvious. Another outcome of the computer science program is to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making, and creating docstrings make it easy for other developers to see what parameters methods take and what values they return. This helps achieve a collaborative environment because many other developers can easily use and maintain the code.
 
-# Header 1
-## Header 2
-### Header 3
+<details><summary>CLICK TO EXPAND FOR SCREENSHOTS OF DASHBOARD</summary>
+<br/>
+<br/>
 
-- Bulleted
-- List
+| Dashboard example - chart of unfiltered data |
+|:--:|
+| <img src="/DashboardUnfilteredData.png" width="700"> |
 
-1. Numbered
-2. List
+| Dashboard example - pie graph and map of unfiltered data |
+|:--:|
+| <img src="/DashboardUnfilteredDataPieChartAndMap.png" width="700"> |
 
-**Bold** and _Italic_ and `Code` text
+| Dashboard example - chart after a button is selected to query the data |
+|:--:|
+| <img src="/DashboardExampleQueryChart.png" width="700"> |
 
-[Link](url) and ![Image](src)
-```
+| Dashboard example - pie graph and map after a button is selected to query the data |
+|:--:|
+| <img src="/DashboardExampleQueryPieGraphAndMap.png" width="700"> |
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kerrsr1/kerrsr1.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</details>
+</div>
