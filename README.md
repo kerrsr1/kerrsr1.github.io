@@ -32,25 +32,24 @@ The Contact Service program could be improved upon by doing more to validate use
 
 This artifact is a data visualization dashboard for animal shelter data. This was the final project for CS-340 Client/Server Development, and it demonstrates my skills in databases. MongoDB Atlas is the database and Python is the interface via the PyMongo driver. It is a full-stack application with the user-interface written in HTML and also utilizing Dash and DashLeaflet. I enhanced this artifact by creating indexes specifically for the needs of the customer. The database contains information on different kinds of animals admitted to an animal shelter in Texas and the customer is interested in certain kinds of dogs that would qualify for their rescue work. Indexing the data boosts performance because the entire collection no longer has to be iterated over each time there is a query.
 
+To demonstrate, querying the database with an example of the type of information the customer was looking for before creating indexes resulted in 10,000 documents being searched through totaling 14ms, while the same query took only 7ms after creating indexes.
+
+| Querying the database without indexing took 14ms |
+|:--:|
+
+| Querying the database with indexing took only 7ms |
+|:--:|
+
+
 One of the outcomes of the computer science program is the ability to use well-founded and innovated techniques and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry specific goal. The indexing enhancement to this application is a well-founded technique in increasing the speed of querying data and thus delivers value to the customer. Another outcome of the computer science program is to deliver professional-quality written and visual communications that are appropriately adapted to specific audiences and contexts, and this is done by delivering a UI for the animal shelter data using the Dash framework and HTML so the customer can easily see the information translated into charts, graphs, and a map. Visualizing the data in such a way makes it meaningful to the customer.
 
-<details><summary>CLICK TO EXPAND FOR EXAMPLES OF QUERYING WITH AND WITHOUT INDEXING</summary>
-
-<br/>
-Querying the database with an example of the type of information the customer was looking for before creating indexes resulted in 10,000 documents being searched through totaling 14ms, while the same query took only 7ms after creating indexes.
-<br/>
-
-| Querying the database without indexing took 14ms | Querying the database with indexing took only 7ms |
-|:--:|:--:|
 | <img src="/ExecutionTimeQueryWithoutIndex.jpg" width="500"> | <img src="/ExecutionTimeQuertyDateWithIndex.jpg" width="500"> |
 
-</details>
+
 
 Additionally, this artifact was enhanced by creating Python docstrings for all Python classes and methods. I also went through the AnimalShelterVisualization.py file and changed some variable names so their contents were more obvious. Another outcome of the computer science program is to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making, and creating docstrings make it easy for other developers to see what parameters methods take and what values they return. This helps achieve a collaborative environment because many other developers can easily use and maintain the code.
-                                                                                                                            
-| Dashboard example - chart of unfiltered data |
-|:--:|
-| ![Dashboard example - chart of unfiltered data](DashboardUnfilteredData.png) |
+
+**Screenshot Examples of the User Interface of the Data Visualization Dashboard:**
                                                                                                                             
 | Dashboard example - chart of unfiltered data |
 |:--:|
@@ -69,27 +68,4 @@ Additionally, this artifact was enhanced by creating Python docstrings for all P
 | ![Dashboard example - pie graph and map after a button is selected to query the data](/DashboardExampleQueryPieGraphAndMapResized.png) |
 
 
-<details><summary>CLICK TO EXPAND FOR SCREENSHOTS OF DASHBOARD</summary>
-<br/>
-<br/>
 
-
-
-| Dashboard example - chart of unfiltered data |
-|:--:|
-| <img src="/DashboardUnfilteredData.png" width="700"> |
-
-| Dashboard example - pie graph and map of unfiltered data |
-|:--:|
-| <img src="/DashboardUnfilteredDataPieChartAndMap.png" width="700"> |
-
-| Dashboard example - chart after a button is selected to query the data |
-|:--:|
-| <img src="/DashboardExampleQueryChart.png" width="700"> |
-
-| Dashboard example - pie graph and map after a button is selected to query the data |
-|:--:|
-| <img src="/DashboardExampleQueryPieGraphAndMap.png" width="700"> |
-
-</details>
-</div>
