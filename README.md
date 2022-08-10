@@ -47,7 +47,11 @@ Querying the database with an example of the type of information the customer wa
 </details>
 
 Additionally, this artifact was enhanced by creating Python docstrings for all Python classes and methods. I also went through the AnimalShelterVisualization.py file and changed some variable names so their contents were more obvious. Another outcome of the computer science program is to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making, and creating docstrings make it easy for other developers to see what parameters methods take and what values they return. This helps achieve a collaborative environment because many other developers can easily use and maintain the code.
-
+                                                                                                                            
+| Dashboard example - chart of unfiltered data |
+|:--:|
+| ![Dashboard example - chart of unfiltered data](DashboardUnfilteredData.png) |
+                                                                                                                            
 | Dashboard example - chart of unfiltered data |
 |:--:|
 | ![Dashboard example - chart of unfiltered data](/DashboardUnfilteredDataResized6.png) |
