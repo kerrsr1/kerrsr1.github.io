@@ -50,7 +50,20 @@ Additionally, this artifact was enhanced by creating Python docstrings for all P
 
 | Dashboard example - chart of unfiltered data |
 |:--:|
-| ![Dashboard example - chart of unfiltered data](/DashboardUnfilteredDataResized5.png) |
+| ![Dashboard example - chart of unfiltered data](/DashboardUnfilteredDataResized6.png) |
+
+| Dashboard example - pie graph and map of unfiltered data |
+|:--:|
+| ![Dashboard example - pie graph and map of unfiltered data](/DashboardUnfilteredDataPieChartAndMapResized.png) |
+
+| Dashboard example - chart after a button is selected to query the data |
+|:--:|
+| ![Dashboard example - chart after a button is selected to query the data](/DashboardExampleQueryChartResized.png) |
+
+| Dashboard example - pie graph and map after a button is selected to query the data |
+|:--:|
+| ![Dashboard example - pie graph and map after a button is selected to query the data](/DashboardExampleQueryPieGraphAndMapResized.png) |
+
 
 <details><summary>CLICK TO EXPAND FOR SCREENSHOTS OF DASHBOARD</summary>
 <br/>
