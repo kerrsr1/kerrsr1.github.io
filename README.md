@@ -52,7 +52,7 @@ Additionally, this artifact was enhanced by creating Python docstrings for all P
 <br/>
 <br/>
 
-![Dashboard example - chart of unfiltered data](/DashboardUnfilteredDataResized.png)
+![Dashboard example - chart of unfiltered data](/DashboardUnfilteredDataResized2.png)
 
 | Dashboard example - chart of unfiltered data |
 |:--:|
