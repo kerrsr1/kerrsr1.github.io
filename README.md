@@ -46,18 +46,12 @@ This artifact is a data visualization dashboard for animal shelter data. This wa
 
 To demonstrate, querying the database with an example of the type of information the customer was looking for before creating indexes resulted in 10,000 documents being searched through totaling 14ms, while the same query took only 7ms after creating indexes.
 
-| Querying the database without indexing took 14ms |
-|:--:|
-
-| Querying the database with indexing took only 7ms |
-|:--:|
+| Querying the database without indexing took 14ms | Querying the database with indexing took only 7ms |
+|:--:|:--:|
+| ![Execution Time Without Indexing](/ExecutionTimeQueryWithoutIndexResized2.jpg) | ![Execution Time With Indexing](/ExecutionTimeQuertyDateWithIndexResized2.jpg) |
 
 
 One of the outcomes of the computer science program is the ability to use well-founded and innovated techniques and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry specific goal. The indexing enhancement to this application is a well-founded technique in increasing the speed of querying data and thus delivers value to the customer. Another outcome of the computer science program is to deliver professional-quality written and visual communications that are appropriately adapted to specific audiences and contexts, and this is done by delivering a UI for the animal shelter data using the Dash framework and HTML so the customer can easily see the information translated into charts, graphs, and a map. Visualizing the data in such a way makes it meaningful to the customer.
-
-| <img src="/ExecutionTimeQueryWithoutIndex.jpg" width="500"> | <img src="/ExecutionTimeQuertyDateWithIndex.jpg" width="500"> |
-
-
 
 Additionally, this artifact was enhanced by creating Python docstrings for all Python classes and methods. I also went through the AnimalShelterVisualization.py file and changed some variable names so their contents were more obvious. Another outcome of the computer science program is to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making, and creating docstrings make it easy for other developers to see what parameters methods take and what values they return. This helps achieve a collaborative environment because many other developers can easily use and maintain the code.
 
