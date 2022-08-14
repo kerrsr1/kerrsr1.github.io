@@ -1,4 +1,13 @@
-<div align="center>
+## Self-Assessment
+
+My areas of interest are software testing and development. Completing the coursework for the computer science program at Southern Hampshire University has helped prepare me for entry into this line of work by giving me experience in software design and engineering, algorithms and data structures, and databases. Additionally, it prepared me for clear written and oral communication to both technical and non-technical parties (stakeholders, clients, etc) as well as working collaboratively as a team. The artifacts I have included below in this portfolio serve to demonstrate these learning outcomes.
+
+The first artifact is a dice game written in both C++ and Python, and it demonstrates my abilities in design and engineering. I designed and developed the program myself, creating it first in C++ and again in Python to demonstrate my ability to use well-founded and innovative tools to provide value to the industry. The second artifact is a Contact Service written in Java, also including subsequent Junit unit tests. It shows my abilities in data structures and algorithms as well as security and experience in testing. The program creates contact instances and stores them in a hashmap so they can be quickly called upon to be updated or deleted later – a data structure that provides both ease of use and good performance. Security, which is more important now within the software industry than ever before, is provided in the form of encapsulation, input verification, and unit testing. The final artifact is a full-stack data visualization program which demonstrates my experience in setting up and maintaining databases as well as creating interactive user-interfaces that allow data to be visualized to the user in a way that provides meaning and value. Using the Dash framework to achieve this goal further demonstrates my ability to use innovative tools.
+
+Communicating well across multiple platforms is important for a computer scientist. I created [this presentation](https://youtu.be/HruiFOw-_Nw) in my secure coding class outlining a security policy I had created for a hypothetical company called Green Pace. It shows my interest in software security and exposure to the SEI CERT secure coding standards. Additionally, it showcases my ability to communicate across a variety of platforms because it is in the form of a narrated Power Point presentation that I recorded as a video and then uploaded to YouTube.
+
+Finally, I would like to share [this scrum sprint review and retrospective](https://github.com/kerrsr1/ScrumSprintReviewandRetrospective) that I wrote at the end of CS 240 after working with my classmates on creating a travel application following the scrum-agile methodology.  This class was a lot of fun. I got to practice communication skills (in the form of Scrum stand-ups and written reports) while also practicing coding and development. The team used Jira to collaborate and keep things on track as we conducted our sprints. This prepared me well for working and communicating with diverse audiences because I needed to communicate to the team as well as to stakeholders.
+
 
 ## Code Review Video Walk-Through
 
@@ -29,6 +38,8 @@ My coursework at SNHU prepared me for designing and evaluating computing solutio
 The Contact Service program could be improved upon by doing more to validate user input. One solution that follows the security mindset of the principle of least privilege would be to white list valid input and throw an exception for everything else rather than checking for invalid input and throwing exceptions when those are encountered.
 
 ## Artifact 3 - Data Visualization Program
+
+[Link to Code](https://github.com/kerrsr1/DataVisualization)
 
 This artifact is a data visualization dashboard for animal shelter data. This was the final project for CS-340 Client/Server Development, and it demonstrates my skills in databases. MongoDB Atlas is the database and Python is the interface via the PyMongo driver. It is a full-stack application with the user-interface written in HTML and also utilizing Dash and DashLeaflet. I enhanced this artifact by creating indexes specifically for the needs of the customer. The database contains information on different kinds of animals admitted to an animal shelter in Texas and the customer is interested in certain kinds of dogs that would qualify for their rescue work. Indexing the data boosts performance because the entire collection no longer has to be iterated over each time there is a query.
 
